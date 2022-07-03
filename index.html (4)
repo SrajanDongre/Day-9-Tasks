@@ -1,0 +1,25 @@
+//In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+<!DOCTYPE 
+html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Employee</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="#" method="get">
+        <table border="4" cellspacing="5" cellpadding="5" width="500">
+            <th colspan="10">Employee</th>
+            <tr>
+            <td><input type="radio" width="250" name="Employee" id="Saliried" value="Saliried">Saliried</td>
+            <td><input type="radio" width="250" name="Employee" id="Own Business" value="Own Business">Own Business</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
