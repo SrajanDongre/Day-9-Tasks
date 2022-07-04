@@ -13,45 +13,68 @@ html>
 </head>
 <body>
     
-        <table border="2" cellspacing="5" cellpadding="5">
-            <th>Health Chart
-            <tr>
-                <th>State of Health</th>
-                <th>Fasting Value
+        <table border="1" cellspacing="5" cellpadding="5">
+            <th width="100">Health Chart
+                <tr>
+                    <th>
+                    <table border="1">    
+                        <tr>
+                            <th>State of Health
+                        </tr>
+                        <tr>    
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>Pre-Diabetes</td>
+                        </tr>
+                        <tr>
+                            <td>Diabetes</td>
+                        </tr>
+                
+                    </table>
+                    </th>
                     
-                    <th>Minimum</th>
-                    <th>Maximum</td>
-                    
-                    
-                </th>
-                <th>After Eating
-                    <th>After 2 hours of eating</th>
-                </th>
-            </tr>
-            
-            <tbody>
-                <td>Healthy</td>
-                <td>70</td>
-                <td>100</td>
-                <td>Less than 140</td>
-            </tbody>
+                    <th>
+                        Fasting Value
+                        <table border="1">
+                        <tr>
+                            <th>Minimum</th>
+                            <th>Maximum</th>
+                        </tr>
+                        <tr>
+                            <td>70</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>101</td>
+                            <td>126</td>
+                        </tr>
+                        <tr>
+                            <td>More than 126</td>
+                            <td>N/A</td>
 
-            <tbody>
-                <td>Pre-Diabetes</td>
-                <td>101</td>
-                <td>126</td>
-                <td>140 to 200</td>
-            </tbody>
+                        </tr>
+                        </table>                
+                    </th>
 
-            <tbody>
-                <td>Diabetes</td>
-                <td>More than 126</td>
-                <td>N/A</td>
-                <td>More than 200</td>
-            </tbody>
+                    <th>After Eating
+                        <table border="1">
+                        <tr>
+                            <th>2 hours after eating</th>
+                        </tr>
+                        <tr>
+                            <td>Less than 140</td>
+                        </tr>
+                        <tr>
+                            <td>140 to 200</td>
+                        </tr>
+                        <tr>
+                            <td>More than 200</td>
+                        </tr>                    
+                        </table>
+                    </th>                    
+                </tr>         
             </th>
-        </table>
-            
-    
+        </table>             
 </body>
 </html>
