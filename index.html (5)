@@ -36,18 +36,18 @@ html>
                 <td>Zip</td>
                 <br></tr>
                 <td ><b>Suscribe for:</b>
-                    <td><input type="radio" id="year" value="year">1 year ($19.95)</td>
-                    <td><input type="radio" id="month" value="month">2 year ($35.00)</td>
+                    <td><input type="checkbox" id="year" value="year">1 year ($19.95)</td>
+                    <td><input type="checkbox" id="month" value="month">2 year ($35.00)</td>
                 </td>
                 <br></tr>
                 <td>
                 <b>Send me more information about:</b></td>
                 <br></tr>
-                <td><input type="radio" id="Computer-Zine" value="Computer-Zine">Computer-Zine</td>
+                <td><input type="checkbox" id="Computer-Zine" value="Computer-Zine">Computer-Zine</td>
                 <br></tr>
-                <td><input type="radio" id="Fishing-Zine" value="Fishing-Zine">Fishing-Zine</td>
+                <td><input type="checkbox" id="Fishing-Zine" value="Fishing-Zine">Fishing-Zine</td>
                 <br></tr>
-                <td><input type="radio" id="Cat-O-Zine" value="Cat-O-Zine">Cat-O-Zine</td>
+                <td><input type="chechbox" id="Cat-O-Zine" value="Cat-O-Zine">Cat-O-Zine</td>
             </tr>
             
         </table>
