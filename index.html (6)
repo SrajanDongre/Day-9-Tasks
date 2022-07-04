@@ -1,0 +1,57 @@
+Use the table tag to design given image Click here.
+
+<!DOCTYPE 
+html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Table</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+        <table border="2" cellspacing="5" cellpadding="5">
+            <th>Health Chart
+            <tr>
+                <th>State of Health</th>
+                <th>Fasting Value
+                    
+                    <th>Minimum</th>
+                    <th>Maximum</td>
+                    
+                    
+                </th>
+                <th>After Eating
+                    <th>After 2 hours of eating</th>
+                </th>
+            </tr>
+            
+            <tbody>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tbody>
+
+            <tbody>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tbody>
+
+            <tbody>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tbody>
+            </th>
+        </table>
+            
+    
+</body>
+</html>
