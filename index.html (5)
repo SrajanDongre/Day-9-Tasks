@@ -1,0 +1,56 @@
+//Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+<!DOCTYPE 
+html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>card_0.png</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="#" method="get">
+        <table  width="400">
+            <th type="text-center" colspan="100" cellpadding="100">Yes! I want to subscribe to Mag-O-Zine</th>
+            <tr>                
+                <td><address><input type="text" name="name" placeholder="Enter first name" required></address></td>
+                <td><address><input type="text" name="name" placeholder="Enter last name" required></address></td>                
+                <br></tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <br></tr>
+                <td width="400"><input type="text" placeholder="Enter Address"></td>
+                <br></tr>
+                <td width="400">Address</td>
+                <br></tr>
+
+                <td><input type="text" placeholder="Enter City"></td>
+                <td><input type="taxt" placeholder="Enter State"></td>
+                <td><input type="number" placeholder="Enter Zip"></td>
+                <br></tr>
+                <td>City</td>
+                <td>State</td>
+                <td>Zip</td>
+                <br></tr>
+                <td ><b>Suscribe for:</b>
+                    <td><input type="radio" id="year" value="year">1 year ($19.95)</td>
+                    <td><input type="radio" id="month" value="month">2 year ($35.00)</td>
+                </td>
+                <br></tr>
+                <td>
+                <b>Send me more information about:</b></td>
+                <br></tr>
+                <td><input type="radio" id="Computer-Zine" value="Computer-Zine">Computer-Zine</td>
+                <br></tr>
+                <td><input type="radio" id="Fishing-Zine" value="Fishing-Zine">Fishing-Zine</td>
+                <br></tr>
+                <td><input type="radio" id="Cat-O-Zine" value="Cat-O-Zine">Cat-O-Zine</td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>
